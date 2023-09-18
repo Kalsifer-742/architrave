@@ -1,0 +1,101 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: FiraCode Nerd Font;
+    font-size: 16px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #282a36;
+    border-bottom: 1px solid #44475a;
+    color: #f8f8f2;
+}
+
+#workspaces button {
+    background: transparent;
+    padding: 0 5px;
+    color: #f8f8f2;
+}
+
+#workspaces button.focused {
+    background: #44475a;
+    border-bottom: 3px solid #f8f8f2;
+}
+
+#wireplumber,
+#custom-wl-gammarelay-brightness, 
+#custom-wl-gammarelay-temperature, 
+#custom-wl-gammarelay-gamma,
+#keyboard-state,
+#cpu,
+#memory,
+#idle_inhibitor,
+#battery,
+#clock,
+#tray {
+    margin: 0 4px;
+    padding: 0 10px;
+    color: #282a36;
+}
+
+#wireplumber {
+    background-color: #f1fa8c;
+}
+
+#idle_inhibitor {
+    background-color: #6272a4;
+}
+
+#custom-wl-gammarelay-brightness {
+    background-color: #8be9fd;
+}
+
+#custom-wl-gammarelay-temperature {
+    background-color: #bd93f9;
+}
+
+#custom-wl-gammarelay-gamma {
+    background-color: #ff79c6;
+}
+
+#keyboard-state {
+    background-color: #ffb86c;
+}
+
+#cpu {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff5555;
+}
+
+#memory {
+    background-color: #ff5555;
+}
+
+#battery {
+    background-color: #50fa7b;
+}
+
+#battery.warning {
+    background-color: #ffb86c;
+}
+
+#battery.critical {
+    background-color: #ff5555;
+}
+
+#clock {
+    color: #50fa7b;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #50fa7b;
+}
+
+#tray {
+    margin: 0 8px;
+    padding: 0 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f8f8f2;
+}

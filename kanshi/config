@@ -1,0 +1,8 @@
+profile standalone {
+	output eDP-1 mode 1920x1080 position 0,0 transform normal
+}
+
+profile desktop {
+	output eDP-1 mode 1920x1080 position 0,360 transform normal
+	output 'LG Electronics LG ULTRAGEAR 103NTRL06406' mode 2560x1440 position 1920,0 transform normal
+}
